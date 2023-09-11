@@ -4,8 +4,8 @@ time = list()
 while True:
     print('--' * 30)
     jogador['nome'] = str(input('Nome do jogador: '))
-    partidas = int(input(f'Quantas partidas {jogador["nome"]} jogou? '))
-    for c in range(0, partidas):
+    partida = int(input(f'Quantas partidas {jogador["nome"]} jogou? '))
+    for c in range(0, partida):
         gols.append(int(input(f'Quantos gols na {c + 1}° partida: ')))
     jogador['gols'] = gols[:]
     jogador['total'] = sum(gols)
@@ -41,3 +41,4 @@ while True:
             print(f'    ==> Na {i + 1}° partida, ele fez {v} gols.')
     print('-' * 40)
 print('<< VOLTE SEMPRE >>')
+
