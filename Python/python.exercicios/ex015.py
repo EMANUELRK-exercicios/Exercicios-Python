@@ -1,0 +1,5 @@
+print('==== Exercicio015 ====')
+d = int(input('Por quantos dias alugou o carro? '))
+km = float(input('Quantos km foram rodados? '))
+pagar = (d * 60) + (km * 0.15)
+print('O total a pagar é R${:.2f}'.format(pagar))
