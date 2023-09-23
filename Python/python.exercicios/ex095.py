@@ -40,5 +40,5 @@ while True:
         for i, v in enumerate(time[opc]['gols']):
             print(f'    ==> Na {i + 1}° partida, ele fez {v} gols.')
     print('-' * 40)
-print('<< VOLTE SEMPRE >>')
+print('<<< VOLTE SEMPRE >>>')
 
