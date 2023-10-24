@@ -1,8 +1,8 @@
 def mensagem(msg):
-    tot = len(msg) + 2
+    tot = len(msg) + 4
     print('~' * tot)
-    print(msg)
+    print(f'  {msg}')
     print('~' * tot)
-mensagem('  Gustavo Guanabara')
-mensagem('  Curso de Python no Youtube')
-mensagem('  CeV')
+mensagem('Gustavo Guanabara')
+mensagem('Curso de Python no Youtube')
+mensagem('CeV')
